@@ -1,16 +1,20 @@
 # Readme 
 
-<strong>Instalação  via github:</strong>
-
- - git clone https://github.com/leopaulasilva/myRepo.git<br />
- - cd zenvia<br />
- - mvn clean install
-
-<h2><strong>URL metodo POST para enviar a lista</strong></h2>
-
+<strong> Configurarar variáveis de ambiente</strong> <br />
+- JAVA_HOME : JDK 11.0.3 <br />
+- MAVEN_HOME : apache-maven-3.6.3<br />
+ <p />
+ 
+ 1- git clone https://github.com/leopaulasilva/myRepo.git<br />
+ 2- cd zenvia<br />
+ 3- mvn clean install<br />
+ 4- mvn spring-boot:run
+ 
+<h2><strong>Acessar via REST client as URLs </strong></h2>
+<strong>Metodo POST para enviar a lista</strong>
  - http://localhost:8080/msg/add<br />
 
-<strong>Parametros no header </strong>:<br />
+Parametros no header:<br />
   -  Content-Type : application/json<br />
   -  token : whatever<br />
 
@@ -36,7 +40,7 @@
 
 ````
 
-<h2><strong>URL metodo GET para ver processada</strong></h2>
+<strong>URL metodo GET para ver a lista processada</strong>
   - http://localhost:8080/msg/list
     
 
