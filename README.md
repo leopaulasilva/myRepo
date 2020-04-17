@@ -1,6 +1,6 @@
 # Readme 
 
-<strong> Configurarar variáveis de ambiente</strong> <br />
+<strong>Instalar e configurar as variáveis de ambiente</strong> <br />
 - JAVA_HOME : JDK 11.0.3 <br />
 - MAVEN_HOME : apache-maven-3.6.3<br />
  <p />
